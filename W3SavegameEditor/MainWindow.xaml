@@ -51,6 +51,10 @@
                     <TextBox  HorizontalAlignment="Left" Height="23" Margin="81,72,0,0" TextWrapping="Wrap" Text="{Binding Data.VariableNames.Count, Mode=OneWay}" VerticalAlignment="Top" Width="120" />
                     <Label Content="Variables" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
                     <TextBox  HorizontalAlignment="Left" Height="23" Margin="81,103,0,0" TextWrapping="Wrap" Text="{Binding Data.Variables.Count, Mode=OneWay}" VerticalAlignment="Top" Width="120" />
+                    <Label Content="Saves" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+                    <TextBox  HorizontalAlignment="Left" Height="23" Margin="81,134,0,0" TextWrapping="Wrap" Text="{Binding Data.Saves, Mode=OneWay}" VerticalAlignment="Top" Width="120" />
+                    <Label Content="Loads" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
+                    <TextBox  HorizontalAlignment="Left" Height="23" Margin="81,165,0,0" TextWrapping="Wrap" Text="{Binding Data.Loads, Mode=OneWay}" VerticalAlignment="Top" Width="120" />
                     <!--<Label Content="Thumbnail" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>-->
                     <!--<Border BorderThickness="1" BorderBrush="White" Height="128" Width="228" Margin="81,134,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left">-->
                     <!--<Image Height="128" Width="228" Margin="81,134,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" Source="{Binding ThumbnailPath}"/>-->
