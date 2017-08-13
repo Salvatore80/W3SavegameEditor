@@ -61,7 +61,7 @@ namespace W3SavegameEditor.ViewModels
         {
             Savegames.Clear();
             string gamesavesPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "The Witcher 3\\gamesaves");
-            var filesPaths = Directory.GetFiles(gamesavesPath, "*.sav");
+            var filesPaths = Directory.GetFiles(gamesavesPath, "*.sav").OrderBy(File.GetLastWriteTime);
 
             foreach (var filePath in filesPaths)
             {
